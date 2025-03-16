@@ -1,0 +1,23 @@
+Hardware License (KiCad Design Files)
+The hardware design files in this repository are licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0).
+You are free to:
+✔ Use, modify, and distribute the hardware design.
+✔ Sell the hardware, either as-is or with modifications.
+✔ Use it for personal or commercial projects.
+Requirements:
+    Attribution: You must credit the original author when distributing or selling the hardware.
+    Modifications: If you modify the hardware, you must document the changes and provide proper attribution to the original work.
+    No additional restrictions: You may not impose legal terms that restrict others from exercising the rights granted under this license.
+Full license text: [CERN-OHL-W-2.0](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
+
+Firmware License (Binary-Only, Apache 2.0)
+The firmware in this repository is licensed under Apache License 2.0 but is only available in compiled binary form. The source code is not provided.
+You are free to:
+✔ Use the firmware for personal or commercial purposes.
+✔ Distribute the firmware binary as long as you include this license.
+You are not allowed to:
+❌ Modify or reverse-engineer the firmware.
+❌ Distribute the firmware's source code (since it is not provided).
+Full license text: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+For any commercial inquiries regarding firmware modifications or licensing, please contact the author.
