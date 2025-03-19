@@ -35,7 +35,7 @@ acceptable) while the real baud rate will be set by hardware.
 Firmware file can be found in corresponding sub-folder and can be flashed to MCU with ST-Link (optionally J-Link).
 
 ## Protocol
-
+For protocol description and examples look inside Protocol.pdf
 
 ## License
 This project is licensed under multiple terms:
