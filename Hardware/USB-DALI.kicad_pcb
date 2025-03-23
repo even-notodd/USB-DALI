@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication/")
 		)
 	)
 	(net 0 "")
@@ -11919,7 +11919,7 @@
 			)
 		)
 	)
-	(gr_text "DALI-"
+	(gr_text "DALI+"
 		(at 188.18 108.125 0)
 		(layer "F.SilkS")
 		(uuid "9bfdcf9c-4bb3-411d-b6a3-93f78f98cb85")
