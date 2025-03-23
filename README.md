@@ -7,7 +7,7 @@ Hardwrae includes DALI bus power supply.
 Can be used with any other software/library supporting Modbus RTU protocol and COM port communication.
 No specific USB drivers required.
 
-![image](https://github.com/user-attachments/assets/bc7f1a80-c95d-4f3c-8095-90b0468517c5)
+![image](IMG/TOP.jpg)
 
 ## Hardware
 This design (though not this very board) has been tested before and successfully used in several systems. 
@@ -35,11 +35,11 @@ acceptable) while the real baud rate will be set by hardware.
 Firmware file can be found in corresponding sub-folder and can be flashed to MCU with ST-Link (optionally J-Link).
 
 ## Protocol
-For protocol description and examples look inside Protocol.pdf
+For protocol description and examples look inside ![Protocol.pdf](Protocol.pdf) 
 
 ## License
 This project is licensed under multiple terms:
 - **Hardware (KiCad design files)**: Licensed under **CERN-OHL-W-2.0**, which allows modification and commercial use with attribution.  
 - **Firmware (binary-only)**: Licensed under **Apache 2.0**, but the source code is not provided. Modification or reverse-engineering is prohibited.  
-See the LICENSE file for full details. 
+See the ![LICENSE file](LICENSE)  for full details. 
 
