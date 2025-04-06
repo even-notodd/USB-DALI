@@ -25,7 +25,7 @@ stable connection so it’s recommended to keep 3-5 seconds pause between connec
 exchange.
 
 ## Software
-The device works as VCP (Virtual COM Port). When using with Linux - no drivers required. For Windows - ![VCP driver](https://www.st.com/en/development-tools/stsw-stm32102.html) from ST Microelectronics should be used.
+The device works as VCP (Virtual COM Port). When using with Linux - no drivers required. For Windows - [VCP driver](https://www.st.com/en/development-tools/stsw-stm32102.html) from ST Microelectronics should be used.
  The Modbus address of the USB-DALI module is 0x01 (not changeable). As far as there is no possibility to connect other devices to the same USB VCP, it will be always the only device in created 
 Modbus network. The real baud rate of VCP of the device is defined and limited by hardware (not software). So during usage of any software, the value of baud rate may be set to higher value (115200 is 
 acceptable) while the real baud rate will be set by hardware.
