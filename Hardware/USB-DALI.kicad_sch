@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "a724d3b9-fba9-4050-a394-337e94c6f0c1")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/even-notodd/USB-DALI")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
