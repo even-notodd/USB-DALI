@@ -1,0 +1,14 @@
+# KiCad backup files
+*~
+
+# KiCad autosave files
+*.bak
+*.tmp
+*.swp
+
+# Common KiCad-generated files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-save.kicad_sch
+*-save.kicad_pcb
