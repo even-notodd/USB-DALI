@@ -50,5 +50,6 @@ This project is licensed under multiple terms:
 - **Hardware (KiCad design files)**: Licensed under **CERN-OHL-W-2.0**, which allows modification and commercial use with attribution.  
 - **Firmware (binary-only)**: Licensed under **Apache 2.0**, but the source code is not provided. Modification or reverse-engineering is prohibited.  
 - **Software**: Licensed under **MIT**. If you use this software in any form (modified or unmodified), please include a link back to the original repository.
-See the ![LICENSE file](LICENSE)  for details. 
+
+See the ![LICENSE file](LICENSE) for details. 
 
