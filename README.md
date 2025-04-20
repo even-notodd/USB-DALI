@@ -25,10 +25,19 @@ stable connection so it’s recommended to keep 3-5 seconds pause between connec
 exchange.
 
 ## Software
+The software is a demo GUI providing simple access to deirect and indirect commands in DALI network (like broadcasting of brightness, working with individual addresses etc).
+Visual Studio Community Edition can be used to build or modify.
+![image](IMG/screen-1.jpg)
+![image](IMG/screen-2.jpg)
+![image](IMG/screen-3.jpg)
+
+## Drivers & settings
 The device works as VCP (Virtual COM Port). When using with Linux - no drivers required. For Windows - [VCP driver](https://www.st.com/en/development-tools/stsw-stm32102.html) from ST Microelectronics should be used.
  The Modbus address of the USB-DALI module is 0x01 (not changeable). As far as there is no possibility to connect other devices to the same USB VCP, it will be always the only device in created 
 Modbus network. The real baud rate of VCP of the device is defined and limited by hardware (not software). So during usage of any software, the value of baud rate may be set to higher value (115200 is 
 acceptable) while the real baud rate will be set by hardware.
+
+
 
 ## Firmware
 Firmware file can be found in corresponding sub-folder and can be flashed to MCU with ST-Link (optionally J-Link).
@@ -40,5 +49,6 @@ For protocol description and examples look inside ![Protocol.pdf](Protocol.pdf)
 This project is licensed under multiple terms:
 - **Hardware (KiCad design files)**: Licensed under **CERN-OHL-W-2.0**, which allows modification and commercial use with attribution.  
 - **Firmware (binary-only)**: Licensed under **Apache 2.0**, but the source code is not provided. Modification or reverse-engineering is prohibited.  
-See the ![LICENSE file](LICENSE)  for full details. 
+- **Software**: Licensed under **MIT**. If you use this software in any form (modified or unmodified), please include a link back to the original repository.
+See the ![LICENSE file](LICENSE)  for details. 
 

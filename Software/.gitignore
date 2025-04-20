@@ -1,0 +1,106 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+# Uncomment if you want to exclude the packages folder (useful for older projects)
+# packages/
+
+# DotCover
+*.dotCover
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.sap
+
+# TFS
+$tf/
+
+# Rider (if someone uses JetBrains Rider)
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# File-based project lock file
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.asset.json
+project.assets.json
+*.deps.json
+*.runtimeconfig.json
+
+# Azure
+.publish/
+
+# Entity Framework
+*.designer.cs
+*.edmx.sql
+*.edmx.diagram
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.ipch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+
+# Others
+*.cache
+*.bak
+*.backup
+*.log
+*.mdf
+*.ldf
+
+# Auto-generated UI files
+*.g.cs
+*.g.i.cs
+
+# JetBrains Rider cache
+.idea/
+
+# Optional: VS Code settings
+.vscode/
+
+# Optional: secrets
+secrets.json

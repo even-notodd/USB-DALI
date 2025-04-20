@@ -19,5 +19,12 @@ You are not allowed to:
 ❌ Modify or reverse-engineer the firmware.
 ❌ Distribute the firmware's source code (since it is not provided).
 Full license text: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
 For any commercial inquiries regarding firmware modifications or licensing, please contact the author.
+
+Software License (C# Application – MIT License)
+The C# source code and Windows Forms application in this repository are licensed under the MIT License.
+You are free to: 
+✔ Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+✔ Include the software in personal or commercial projects.
+Requirements:
+    Attribution: You must include the following copyright notice and license text in all copies or substantial portions of the software.
