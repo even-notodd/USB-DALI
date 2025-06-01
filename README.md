@@ -27,6 +27,7 @@ exchange.
 ## Software
 The software is a demo GUI providing simple access to deirect and indirect commands in DALI network (like broadcasting of brightness, working with individual addresses etc).
 Visual Studio Community Edition can be used to build or modify.
+
 ![image](IMG/screen-1.jpg)
 ![image](IMG/screen-2.jpg)
 ![image](IMG/screen-3.jpg)
