@@ -56,7 +56,6 @@ project.assets.json
 .publish/
 
 # Entity Framework
-*.designer.cs
 *.edmx.sql
 *.edmx.diagram
 
