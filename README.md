@@ -7,10 +7,11 @@ Hardwrae includes DALI bus power supply.
 Can be used with any other software/library supporting Modbus RTU protocol and COM port communication.
 
 ![image](IMG/TOP.jpg)
+![image](IMG/PH.jpg)
 
 ## Hardware
-This design (though not this very board) has been tested before and successfully used in several systems. 
-The device is built around popular STM32F103C8T6 using MCUs USB. The DALI "physical layer" is build with a few descrete components without any specific transceiver.
+This design has been tested before and successfully used in several systems. 
+The device is built around popular STM32F103C8T6 using MCUs USB. The DALI "physical layer" is build with a few descrete components without any special transceiver.
 The hardware implementation also includes DALI bus power supply which simplifies its usage in building hardware setups through design & development process. Nevertheless we don't recommend (!) using it as bus power supply in any permanent installations.
 
 The module can work with DALI line powered from external DALI power supply or powered from 
