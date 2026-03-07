@@ -6,7 +6,7 @@ The device can be operated via standard Modbus RTU commands set. Data exchange e
 Hardware includes DALI bus power supply.
 Can be used with any other software/library supporting Modbus RTU protocol and COM port communication.
 
-![image](IMG/sch.jpg)
+![image](IMG/sch.jpeg)
 ![image](IMG/PH.jpg)
 
 ## Hardware
