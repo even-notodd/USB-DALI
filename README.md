@@ -3,15 +3,15 @@ USB-DALI interface converter.
 The device works as a gateway allowing sending data from USB VCP (USB Virtual COM 
 Port) into DALI network and reading data from DALI network via Modbus RTU protocol.
 The device can be operated via standard Modbus RTU commands set. Data exchange examples can be found below. 
-Hardwrae includes DALI bus power supply.
+Hardware includes DALI bus power supply.
 Can be used with any other software/library supporting Modbus RTU protocol and COM port communication.
 
-![image](IMG/TOP.jpg)
+![image](IMG/sch.jpg)
 ![image](IMG/PH.jpg)
 
 ## Hardware
 This design has been tested before and successfully used in several systems. 
-The device is built around popular STM32F103C8T6 using MCUs USB. The DALI "physical layer" is build with a few descrete components without any special transceiver.
+The device is built around popular STM32F103C8T6 using MCUs USB. The DALI "physical layer" is build with a few discrete components without any special transceiver.
 The hardware implementation also includes DALI bus power supply which simplifies its usage in building hardware setups through design & development process. Nevertheless we don't recommend (!) using it as bus power supply in any permanent installations.
 
 The module can work with DALI line powered from external DALI power supply or powered from 
@@ -26,7 +26,7 @@ stable connection so it’s recommended to keep 3-5 seconds pause between connec
 exchange.
 
 ## Software
-The software is a demo GUI providing simple access to deirect and indirect commands in DALI network (like broadcasting of brightness, working with individual addresses etc).
+The software is a demo GUI providing simple access to direct and indirect commands in DALI network (like broadcasting of brightness, working with individual addresses etc).
 Visual Studio Community Edition can be used to build or modify.
 
 ![image](IMG/screen-1.jpg)
