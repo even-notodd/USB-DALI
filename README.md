@@ -1,10 +1,5 @@
 # USB-DALI
-USB-DALI interface converter.
-The device works as a gateway allowing sending data from USB VCP (USB Virtual COM 
-Port) into DALI network and reading data from DALI network via Modbus RTU protocol.
-The device can be operated via standard Modbus RTU commands set. Data exchange examples can be found below. 
-Hardware includes DALI bus power supply.
-Can be used with any other software/library supporting Modbus RTU protocol and COM port communication.
+USB-DALI adapter. The device works as a gateway allowing sending data via USB VCP (USB Virtual COM Port) to DALI bus and reading data from DALI bus via Modbus RTU protocol. The device can be operated via standard Modbus RTU commands set. Data exchange examples can be found in the repo. Hardware includes DALI bus power supply. Software includes C# sample of sending basic DALI commands including DALI configuration and a simple GUI.
 
 ![image](IMG/sch.jpeg)
 ![image](IMG/PH.jpg)
