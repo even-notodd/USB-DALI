@@ -8,7 +8,7 @@ Requirements:
     Attribution: You must credit the original author when distributing or selling the hardware.
     Modifications: If you modify the hardware, you must document the changes and provide proper attribution to the original work.
     No additional restrictions: You may not impose legal terms that restrict others from exercising the rights granted under this license.
-Full license text: [CERN-OHL-W-2.0](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
+Full license text: [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt)
 
 Firmware License (Binary-Only, Apache 2.0)
 The firmware in this repository is licensed under Apache License 2.0 but is only available in compiled binary form. The source code is not provided.
